@@ -1,5 +1,5 @@
 # Spatial variability and sample size analysis
-Code accompanying the manuscript "Multiplex imaging of localized prostate tumors reveals changes in mast cell type composition and spatial organization of AR-positive cells in the tumor microenvironment" by Ak et al. which is currently in revision at Nature Communications. 
+Code accompanying the manuscript "Multiplex imaging of localized prostate tumors reveals changes in mast cell type composition and spatial organization of AR-positive cells in the tumor microenvironment" by Ak et al. which is currently in revision at iScience. 
 
 ## Overview
 This repository contains code and documentation related to the analysis of spatial variability and sample size effects in prostate cancer progression.  We performed several rigorous statistical analyses to ensure the sufficient spatial power and consistency of our results: (1) creating in silico tissues (ISTs) to augment sample size and to address sample variability, (2) leaving one patient out analysis to assess the impact of patient-to-patient variability on the results, (3) subsampling analysis to estimate the variability in our results and showed the stability of our findings, (4) permutation test to show further benchmarking and robustness of our findings.  All these different tests are different ways to address statistical power to determine the significance of the results.
@@ -33,7 +33,7 @@ NeighborhoodIdentification folder contains code for identifying cellular neighbo
 
 InSilicoTissues folder contains code for creating in silico tissues for whole slide images and the point plots of cells showing ISTs on tissues.
 
-To replicate or further explore our analysis, refer to the provided data in our manuscript.
+data folder contains single-cell data with required annotations. To replicate or further explore our analysis, refer to the Figshare+ data link provided in the manuscript.
 
 ## Citation
 If you find this work helpful in your research, please cite our paper “Multiplex imaging of localized prostate tumors reveals changes in mast cell type composition and spatial organization of AR-positive cells in the tumor microenvironment” Ak et al. bioRxiv 2023.08.18.553854; doi:https://doi.org/10.1101/2023.08.18.553854
