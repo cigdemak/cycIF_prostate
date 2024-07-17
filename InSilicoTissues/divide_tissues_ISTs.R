@@ -1,7 +1,7 @@
 library(readr)
-TAN_PCa_dfmerged_Nolan_names_0904 <- read_csv("~/Documents/OneDrive - Oregon Health & Science University/cIFimaging/jupiter_notebook/NeighborhoodCoordination_NolanLab_G3-G4-TAN-PCa_dfmerged_Nolan-names_0904/TAN-PCa_dfmerged_Nolan-names_0904.csv")
-G3_PCa_dfmerged_Nolan_names_0904 <- read_csv("~/Documents/OneDrive - Oregon Health & Science University/cIFimaging/jupiter_notebook/NeighborhoodCoordination_NolanLab_G3-G4-TAN-PCa_dfmerged_Nolan-names_0904/G3-PCa_dfmerged_Nolan-names_0904.csv")
-G4_PCa_dfmerged_Nolan_names_0904 <- read_csv("~/Documents/OneDrive - Oregon Health & Science University/cIFimaging/jupiter_notebook/NeighborhoodCoordination_NolanLab_G3-G4-TAN-PCa_dfmerged_Nolan-names_0904/G4-PCa_dfmerged_Nolan-names_0904.csv")
+TAN_PCa_dfmerged_Nolan_names_0904 <- read_csv("../data/TAN-PCa_dfmerged_Nolan-names_0904.csv")
+G3_PCa_dfmerged_Nolan_names_0904 <- read_csv("../data/G3-PCa_dfmerged_Nolan-names_0904.csv")
+G4_PCa_dfmerged_Nolan_names_0904 <- read_csv("../data/G4-PCa_dfmerged_Nolan-names_0904.csv")
 df <- rbind(TAN_PCa_dfmerged_Nolan_names_0904, G3_PCa_dfmerged_Nolan_names_0904, G4_PCa_dfmerged_Nolan_names_0904)
 #df <- df[,-c(1,2,3,4,6,10)]
 
@@ -100,4 +100,4 @@ for(patient in c('G4_1', 'G4_2', 'G4_3')){
 
 df_with_all_cell_spots <- df[df$Spots %in% c(spots_tan, spots_g3, spots_g4), ]
 
-write.csv(df_with_all_cell_spots, '../df_with_all_3patients_10spots.csv')
+write.csv(df_with_all_cell_spots, '../NeighborhoodIdentification/df_with_all_3patients_10spots.csv')
