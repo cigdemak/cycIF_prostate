@@ -1,5 +1,5 @@
 # Spatial variability and sample size analysis
-Code accompanying the manuscript "Multiplex imaging of localized prostate tumors reveals altered spatial organization of AR-positive cells in the microenvironment" by Ak et al., published in iScience. 
+Code accompanying the manuscript "Multiplex imaging of localized prostate tumors reveals altered spatial organization of AR-positive cells in the microenvironment" by Ak et al., published in _iScience_. 
 
 ## Overview
 This repository contains code and documentation related to the analysis of spatial variability and sample size effects in prostate cancer progression.  We performed several rigorous statistical analyses to ensure the sufficient spatial power and consistency of our results: (1) creating in silico tissues (ISTs) to augment sample size and to address sample variability, (2) leaving one patient out analysis to assess the impact of patient-to-patient variability on the results, (3) subsampling analysis to estimate the variability in our results and showed the stability of our findings, (4) permutation test to show further benchmarking and robustness of our findings.  All these different tests are different ways to address statistical power to determine the significance of the results.
@@ -36,4 +36,4 @@ InSilicoTissues folder contains code for creating in silico tissues for whole sl
 data folder contains single-cell data with required annotations. To replicate or further explore our analysis, refer to the Figshare+ data link provided in the manuscript.
 
 ## Citation
-If you find this work helpful in your research, please cite our paper: Ak, Cigdem et al. “Multiplex imaging of localized prostate tumors reveals altered spatial organization of AR-positive cells in the microenvironment.” iScience vol. 27,9 110668. 3 Aug. 2024, [doi:10.1016/j.isci.2024.110668](https://doi.org/10.1016/j.isci.2024.110668)
+If you find this work helpful in your research, please cite our paper: Ak, Cigdem et al. “Multiplex imaging of localized prostate tumors reveals altered spatial organization of AR-positive cells in the microenvironment.” _iScience_ vol. 27,9 110668. 3 Aug. 2024, [doi:10.1016/j.isci.2024.110668](https://doi.org/10.1016/j.isci.2024.110668)
